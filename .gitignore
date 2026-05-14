@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 1. 파이썬 기본 제외 파일들
+__pycache__/
+*.py[cod]
+
+# 2. 가상환경 폴더 (만약 venv를 쓴다면)
+venv/
+env/
+
+# 3. ⭐️ 보안 정보 (절대 깃허브에 올라가면 안 됨!) ⭐️
+.env
+browser_data/
+
+# 4. PyInstaller 빌드 결과물 (실행 파일 등)
+dist/
+build/
+*.spec
